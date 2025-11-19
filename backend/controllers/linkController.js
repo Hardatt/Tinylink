@@ -4,6 +4,8 @@ const generateCode = require("../utils/generateCode");
 exports.createLink = async (req, res) => {
   try {
     const { url, code } = req.body;
+    console.log("DEBUG req.body:", req.body);
+    console.log("DEBUG url received:", url);
 
     try { new URL(url); } 
     catch { return res.status(400).json({ error: "Invalid URL" }); }
