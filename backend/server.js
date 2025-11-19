@@ -15,16 +15,9 @@ app.get("/healthz", (req, res) => {
   res.json({ ok: true, version: "1.0" });
 });
 
-app.post("/api/links", (req, res, next) => {
-  console.log("DEBUG BODY:", req.body);
-  next();
-});
-
 app.use("/api", linkRoutes);
 
-
 app.get("/:code", ctrl.redirect);
-
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Server running on ${PORT}`));
