@@ -9,7 +9,7 @@ This project follows the full assignment specs from the TinyLink Take-Home Chall
 ## 🚀 Live Demo
 
 ### 🔹 Frontend (Vercel)  
-👉 https://your-frontend.vercel.app
+👉 https://tinylink-six-self.vercel.app/
 
 ### 🔹 Backend (Render)  
 👉 https://tinylink-8qmy.onrender.com
