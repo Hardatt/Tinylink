@@ -19,3 +19,12 @@ This project follows the full assignment specs from the TinyLink Take-Home Chall
 Returns:
 ```json
 { "ok": true, "version": "1.0" }
+
+*** example .env
+
+(frontend)
+VITE_BACKEND_URL= www.exampleurlofbackend.com
+
+(backend)
+DATABASE_URL= www.postgresaqlneondbconnectionstring.com
+PORT= 5000
